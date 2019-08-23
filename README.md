@@ -1,3 +1,2 @@
-# QtAppProject
-保存编写的一些Qt应用程序，分不同分支存放
+# mySerial
 串口调试助手
