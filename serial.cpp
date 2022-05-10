@@ -47,7 +47,6 @@ bool Serial::open(QString serialName, int baudRate)
 
         return true;
     }
-
     return false;
 }
 

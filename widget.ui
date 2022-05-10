@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>271</height>
+    <width>720</width>
+    <height>507</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,19 +17,19 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
-     <width>290</width>
-     <height>150</height>
+     <y>20</y>
+     <width>481</width>
+     <height>341</height>
     </rect>
    </property>
   </widget>
   <widget class="QPushButton" name="sendButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>200</y>
-     <width>75</width>
-     <height>23</height>
+     <x>510</x>
+     <y>390</y>
+     <width>121</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
@@ -40,19 +40,19 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>180</y>
-     <width>291</width>
-     <height>71</height>
+     <y>370</y>
+     <width>481</width>
+     <height>111</height>
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>10</y>
-     <width>77</width>
-     <height>135</height>
+     <x>500</x>
+     <y>20</y>
+     <width>95</width>
+     <height>156</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -125,6 +125,58 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="refButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>20</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新串口</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="hexcheckBox">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>270</y>
+     <width>91</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HEX</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="timecheckBox">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>300</y>
+     <width>181</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示系统当前时间</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="rcheckBox">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>330</y>
+     <width>91</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自动换行</string>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
